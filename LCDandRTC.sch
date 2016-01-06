@@ -1,0 +1,580 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:jakub
+LIBS:MicroFLiC_junction_shield_1_0-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PCA9306 U2
+U 1 1 566ACC89
+P 4250 2200
+F 0 "U2" H 4250 2700 60  0000 C CNN
+F 1 "PCA9306DP" H 4250 2600 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 4250 2200 60  0001 C CNN
+F 3 "" H 4250 2200 60  0000 C CNN
+F 4 "PCA9306DP" H 4250 2200 60  0001 C CNN "Part Number"
+F 5 "NXP" H 4250 2200 60  0001 C CNN "Manufacturer"
+F 6 "2212072" H 4250 2200 60  0001 C CNN "Order Code"
+	1    4250 2200
+	1    0    0    -1  
+$EndComp
+Text Label 3200 2300 0    60   ~ 0
+SDA
+Text Label 3200 2450 0    60   ~ 0
+SCL
+$Comp
+L +3V3 #PWR027
+U 1 1 566ACC96
+P 3500 1900
+F 0 "#PWR027" H 3500 1750 50  0001 C CNN
+F 1 "+3V3" H 3500 2040 50  0000 C CNN
+F 2 "" H 3500 1900 50  0000 C CNN
+F 3 "" H 3500 1900 50  0000 C CNN
+	1    3500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 566ACCA0
+P 6550 2000
+F 0 "R11" V 6630 2000 50  0000 C CNN
+F 1 "100k" V 6550 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6480 2000 50  0001 C CNN
+F 3 "" H 6550 2000 50  0000 C CNN
+F 4 "MCWR08X1003FTL" V 6550 2000 60  0001 C CNN "Part Number"
+F 5 "Multicomp" V 6550 2000 60  0001 C CNN "Manufacturer"
+F 6 "2447551" V 6550 2000 60  0001 C CNN "Order Code"
+	1    6550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR028
+U 1 1 566ACCAB
+P 6800 1500
+F 0 "#PWR028" H 6800 1350 50  0001 C CNN
+F 1 "+5V" H 6800 1640 50  0000 C CNN
+F 2 "" H 6800 1500 50  0000 C CNN
+F 3 "" H 6800 1500 50  0000 C CNN
+	1    6800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 566ACCC2
+P 6800 3100
+F 0 "#PWR029" H 6800 2850 50  0001 C CNN
+F 1 "GND" H 6800 2950 50  0000 C CNN
+F 2 "" H 6800 3100 50  0000 C CNN
+F 3 "" H 6800 3100 50  0000 C CNN
+	1    6800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GSD Q3
+U 1 1 566ACCC8
+P 6200 3500
+F 0 "Q3" H 6400 3550 50  0000 L CNN
+F 1 "TSM2314" H 6400 3450 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6400 3600 50  0001 C CNN
+F 3 "" H 6200 3500 50  0000 C CNN
+F 4 "TSM2314CX" H 6200 3500 60  0001 C CNN "Part Number"
+F 5 "Taiwan Semiconductor" H 6200 3500 60  0001 C CNN "Manufacturer"
+F 6 "1864589" H 6200 3500 60  0001 C CNN "Order Code"
+	1    6200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 566ACCCF
+P 4250 3100
+F 0 "#PWR030" H 4250 2850 50  0001 C CNN
+F 1 "GND" H 4250 2950 50  0000 C CNN
+F 2 "" H 4250 3100 50  0000 C CNN
+F 3 "" H 4250 3100 50  0000 C CNN
+	1    4250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 566ACCD5
+P 6300 3800
+F 0 "#PWR031" H 6300 3550 50  0001 C CNN
+F 1 "GND" H 6300 3650 50  0000 C CNN
+F 2 "" H 6300 3800 50  0000 C CNN
+F 3 "" H 6300 3800 50  0000 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+Text Label 3200 3500 0    60   ~ 0
+~I2C_EN
+Text Label 5600 2300 2    60   ~ 0
+SCL_5V
+Text Label 5600 2450 2    60   ~ 0
+SDA_5V
+$Comp
+L R R8
+U 1 1 566ACCEE
+P 5000 1350
+F 0 "R8" V 5080 1350 50  0000 C CNN
+F 1 "1k5" V 5000 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4930 1350 50  0001 C CNN
+F 3 "" H 5000 1350 50  0000 C CNN
+F 4 "MCWR08X1501FTL" V 5000 1350 60  0001 C CNN "Part Number"
+F 5 "Multicomp" V 5000 1350 60  0001 C CNN "Manufacturer"
+F 6 "2447592" V 5000 1350 60  0001 C CNN "Order Code"
+	1    5000 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR032
+U 1 1 566ACCFE
+P 5200 1000
+F 0 "#PWR032" H 5200 850 50  0001 C CNN
+F 1 "+5V" H 5200 1140 50  0000 C CNN
+F 2 "" H 5200 1000 50  0000 C CNN
+F 3 "" H 5200 1000 50  0000 C CNN
+	1    5200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 566ACD0E
+P 5400 1600
+F 0 "#PWR033" H 5400 1350 50  0001 C CNN
+F 1 "GND" H 5400 1450 50  0000 C CNN
+F 2 "" H 5400 1600 50  0000 C CNN
+F 3 "" H 5400 1600 50  0000 C CNN
+	1    5400 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 3100 2300 0    60   BiDi ~ 0
+SDA
+Text HLabel 3100 2450 0    60   BiDi ~ 0
+SCL
+Text HLabel 3100 3500 0    60   Input ~ 0
+~I2C_EN
+Text Notes 4250 700  0    60   ~ 0
+I2C Level Translator
+$Comp
+L CONN_02X08 P6
+U 1 1 566AD7AE
+P 4200 5650
+F 0 "P6" H 4200 6100 50  0000 C CNN
+F 1 "2x8 socket strip" V 4200 5650 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 4200 4450 50  0001 C CNN
+F 3 "" H 4200 4450 50  0000 C CNN
+F 4 "ESQ-108-33-G-D" H 4200 5650 60  0001 C CNN "Part Number"
+F 5 "Samtec" H 4200 5650 60  0001 C CNN "Manufacturer"
+F 6 "1930550" H 4200 5650 60  0001 C CNN "Order Code"
+	1    4200 5650
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 5100 0    60   ~ 0
+LCD & RTC
+Text Label 3850 5300 2    60   ~ 0
+LCD_A0
+Text Label 3850 5400 2    60   ~ 0
+LCD_A1
+Text Label 3850 5500 2    60   ~ 0
+~LCD_CS
+Text Label 3850 5600 2    60   ~ 0
+LCD_D0
+Text Label 3850 5700 2    60   ~ 0
+LCD_D1
+Text Label 4550 6000 0    60   ~ 0
+LCD_D4
+Text Label 3850 5900 2    60   ~ 0
+LCD_D3
+Text Label 3850 5800 2    60   ~ 0
+LCD_D2
+Text Label 4550 5700 0    60   ~ 0
+LCD_D7
+Text Label 4550 5800 0    60   ~ 0
+LCD_D6
+Text Label 4550 5900 0    60   ~ 0
+LCD_D5
+$Comp
+L GND #PWR034
+U 1 1 566AD7CE
+P 3850 6100
+F 0 "#PWR034" H 3850 5850 50  0001 C CNN
+F 1 "GND" H 3850 5950 50  0000 C CNN
+F 2 "" H 3850 6100 50  0000 C CNN
+F 3 "" H 3850 6100 50  0000 C CNN
+	1    3850 6100
+	1    0    0    -1  
+$EndComp
+Text Label 4550 5600 0    60   ~ 0
+SCL_5V
+Text Label 4550 5500 0    60   ~ 0
+SDA_5V
+$Comp
+L DS1338 U3
+U 1 1 566AD908
+P 9100 2300
+F 0 "U3" H 9200 2900 60  0000 L CNN
+F 1 "DS1338" H 9200 2800 60  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9450 1750 60  0001 C CNN
+F 3 "" H 9450 1750 60  0000 C CNN
+F 4 "DS1338Z-33" H 9100 2300 60  0001 C CNN "Part Number"
+F 5 "Maxim Integrated" H 9100 2300 60  0001 C CNN "Manufacturer"
+F 6 "1379714" H 9100 2300 60  0001 C CNN "Order Code"
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR035
+U 1 1 566ADC91
+P 10100 2450
+F 0 "#PWR035" H 10100 2300 50  0001 C CNN
+F 1 "+BATT" V 10100 2590 50  0000 L CNN
+F 2 "" H 10100 2450 50  0000 C CNN
+F 3 "" H 10100 2450 50  0000 C CNN
+	1    10100 2450
+	0    1    1    0   
+$EndComp
+Text Label 7900 2000 0    60   ~ 0
+SCL_5V
+Text Label 7900 2150 0    60   ~ 0
+SDA_5V
+$Comp
+L CRYSTAL_4Pin_SMD X1
+U 1 1 566ADFA1
+P 8050 2450
+F 0 "X1" H 8050 2650 50  0000 C CNN
+F 1 "32.768kHz" H 8050 2250 50  0000 C CNN
+F 2 "jakub:Crystal_8.7*3.7mm" H 8050 2450 60  0001 C CNN
+F 3 "" H 8050 2450 60  0000 C CNN
+F 4 "FSRLF327" H 8050 2450 60  0001 C CNN "Part Number"
+F 5 "Fox Electronics" H 8050 2450 60  0001 C CNN "Manufacturer"
+F 6 "2064035" H 8050 2450 60  0001 C CNN "Order Code"
+	1    8050 2450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8100 2300
+NoConn ~ 8000 2300
+Text Label 4550 5400 0    60   ~ 0
+~RST
+$Comp
+L R R10
+U 1 1 566B2AAA
+P 5200 3250
+F 0 "R10" V 5280 3250 50  0000 C CNN
+F 1 "100k" V 5200 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5130 3250 50  0001 C CNN
+F 3 "" H 5200 3250 50  0000 C CNN
+F 4 "MCWR08X1003FTL" V 5200 3250 60  0001 C CNN "Part Number"
+F 5 "Multicomp" V 5200 3250 60  0001 C CNN "Manufacturer"
+F 6 "2447551" V 5200 3250 60  0001 C CNN "Order COde"
+	1    5200 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR036
+U 1 1 566B2C19
+P 5200 3000
+F 0 "#PWR036" H 5200 2850 50  0001 C CNN
+F 1 "+3V3" H 5200 3140 50  0000 C CNN
+F 2 "" H 5200 3000 50  0000 C CNN
+F 3 "" H 5200 3000 50  0000 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 5050 5400 2    60   BiDi ~ 0
+~RST
+NoConn ~ 9900 2150
+$Comp
+L +12V #PWR037
+U 1 1 566AAE29
+P 4650 5200
+F 0 "#PWR037" H 4650 5050 50  0001 C CNN
+F 1 "+12V" H 4650 5340 50  0000 C CNN
+F 2 "" H 4650 5200 50  0000 C CNN
+F 3 "" H 4650 5200 50  0000 C CNN
+	1    4650 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2300 3600 2300
+Wire Wire Line
+	3100 2450 3600 2450
+Wire Wire Line
+	3600 2000 3500 2000
+Wire Wire Line
+	3500 2000 3500 1900
+Wire Wire Line
+	6800 2150 4900 2150
+Wire Wire Line
+	6800 1900 6800 2250
+Wire Wire Line
+	4900 2000 6400 2000
+Wire Wire Line
+	6700 2000 6800 2000
+Connection ~ 6800 2000
+Wire Wire Line
+	6800 1500 6800 1600
+Connection ~ 6800 2150
+Wire Wire Line
+	6800 2550 6800 3100
+Wire Wire Line
+	4250 2900 4250 3100
+Wire Wire Line
+	6300 3700 6300 3800
+Wire Wire Line
+	6300 3300 6300 2000
+Connection ~ 6300 2000
+Wire Wire Line
+	3100 3500 6000 3500
+Wire Wire Line
+	4900 2300 5700 2300
+Wire Wire Line
+	4900 2450 5700 2450
+Wire Wire Line
+	5000 1500 5000 2300
+Connection ~ 5000 2300
+Wire Wire Line
+	5200 1500 5200 2450
+Connection ~ 5200 2450
+Wire Wire Line
+	5000 1200 5000 1100
+Wire Wire Line
+	5200 1000 5200 1200
+Wire Wire Line
+	5000 1100 5400 1100
+Wire Wire Line
+	5400 1100 5400 1200
+Connection ~ 5200 1100
+Wire Wire Line
+	5400 1500 5400 1600
+Wire Wire Line
+	3350 5300 3950 5300
+Wire Wire Line
+	3350 5400 3950 5400
+Wire Wire Line
+	3350 5500 3950 5500
+Wire Wire Line
+	3350 5600 3950 5600
+Wire Wire Line
+	3350 5700 3950 5700
+Wire Wire Line
+	4450 6000 5050 6000
+Wire Wire Line
+	3350 5900 3950 5900
+Wire Wire Line
+	3350 5800 3950 5800
+Wire Wire Line
+	4450 5800 5050 5800
+Wire Wire Line
+	4450 5900 5050 5900
+Wire Wire Line
+	4450 5700 5050 5700
+Wire Wire Line
+	3950 6000 3850 6000
+Wire Wire Line
+	3850 6000 3850 6100
+Wire Wire Line
+	4450 5500 5050 5500
+Wire Wire Line
+	4450 5600 5050 5600
+Wire Wire Line
+	4450 5300 4650 5300
+Wire Wire Line
+	4650 5300 4650 5200
+Wire Wire Line
+	4450 5400 5050 5400
+Wire Wire Line
+	10600 3150 9200 3150
+Wire Wire Line
+	9200 3150 9100 3050
+Wire Wire Line
+	10600 1450 9200 1450
+Wire Wire Line
+	9200 1450 9100 1550
+Wire Wire Line
+	9900 2450 10100 2450
+Wire Wire Line
+	10600 1600 10600 1450
+Wire Wire Line
+	10600 1900 10600 3150
+Wire Wire Line
+	8300 2000 7800 2000
+Wire Wire Line
+	8300 2150 7800 2150
+Wire Wire Line
+	8300 2450 8200 2450
+Wire Wire Line
+	8300 2600 7800 2600
+Wire Wire Line
+	7800 2600 7800 2450
+Wire Wire Line
+	7800 2450 7900 2450
+Wire Wire Line
+	5200 3400 5200 3500
+Connection ~ 5200 3500
+Wire Wire Line
+	5200 3100 5200 3000
+Text Notes 4050 4100 0    60   ~ 0
+TTL buffers for 3.3V to 5V level shifting
+Text HLabel 3350 5300 0    60   Input ~ 0
+LCD_A0
+Text HLabel 3350 5400 0    60   Input ~ 0
+LCD_A1
+Text HLabel 3350 5500 0    60   Input ~ 0
+~LCD_CS
+Text HLabel 3350 5600 0    60   Input ~ 0
+LCD_D0
+Text HLabel 3350 5700 0    60   Input ~ 0
+LCD_D1
+Text HLabel 3350 5800 0    60   Input ~ 0
+LCD_D2
+Text HLabel 3350 5900 0    60   Input ~ 0
+LCD_D3
+Text HLabel 5050 5700 2    60   Input ~ 0
+LCD_D7
+Text HLabel 5050 5800 2    60   Input ~ 0
+LCD_D6
+Text HLabel 5050 5900 2    60   Input ~ 0
+LCD_D5
+Text HLabel 5050 6000 2    60   Input ~ 0
+LCD_D4
+Wire Wire Line
+	9100 3050 9100 3300
+Wire Wire Line
+	9100 1550 9100 1300
+$Comp
+L +5V #PWR038
+U 1 1 56700AB7
+P 9100 1300
+F 0 "#PWR038" H 9100 1150 50  0001 C CNN
+F 1 "+5V" H 9100 1440 50  0000 C CNN
+F 2 "" H 9100 1300 50  0000 C CNN
+F 3 "" H 9100 1300 50  0000 C CNN
+	1    9100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 56700B0D
+P 9100 3300
+F 0 "#PWR039" H 9100 3050 50  0001 C CNN
+F 1 "GND" H 9100 3150 50  0000 C CNN
+F 2 "" H 9100 3300 50  0000 C CNN
+F 3 "" H 9100 3300 50  0000 C CNN
+	1    9100 3300
+	1    0    0    -1  
+$EndComp
+Text Label 8200 2450 0    60   ~ 0
+X2
+Text Label 8200 2600 0    60   ~ 0
+X1
+$Comp
+L C C5
+U 1 1 567546A6
+P 5400 1350
+F 0 "C5" H 5425 1450 50  0000 L CNN
+F 1 "100n" H 5425 1250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5438 1200 50  0001 C CNN
+F 3 "" H 5400 1350 50  0000 C CNN
+F 4 "MC0805B104K250CT" H 5400 1350 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 5400 1350 60  0001 C CNN "Manufacturer"
+F 6 "1759166" H 5400 1350 60  0001 C CNN "Order Code"
+	1    5400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 56754716
+P 10600 1750
+F 0 "C7" H 10625 1850 50  0000 L CNN
+F 1 "100n" H 10625 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 10638 1600 50  0001 C CNN
+F 3 "" H 10600 1750 50  0000 C CNN
+F 4 "MC0805B104K250CT" H 10600 1750 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 10600 1750 60  0001 C CNN "Manufacturer"
+F 6 "1759166" H 10600 1750 60  0001 C CNN "Order Code"
+	1    10600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 567547AA
+P 6800 2400
+F 0 "C6" H 6825 2500 50  0000 L CNN
+F 1 "100n" H 6825 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6838 2250 50  0001 C CNN
+F 3 "" H 6800 2400 50  0000 C CNN
+F 4 "MC0805B104K250CT" H 6800 2400 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 6800 2400 60  0001 C CNN "Manufacturer"
+F 6 "1759166" H 6800 2400 60  0001 C CNN "Order Code"
+	1    6800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 56754CC8
+P 5200 1350
+F 0 "R9" V 5280 1350 50  0000 C CNN
+F 1 "1k5" V 5200 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5130 1350 50  0001 C CNN
+F 3 "" H 5200 1350 50  0000 C CNN
+F 4 "MCWR08X1501FTL" V 5200 1350 60  0001 C CNN "Part Number"
+F 5 "Multicomp" V 5200 1350 60  0001 C CNN "Manufacturer"
+F 6 "2447592" V 5200 1350 60  0001 C CNN "Order Code"
+	1    5200 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R12
+U 1 1 56754D8D
+P 6800 1750
+F 0 "R12" V 6880 1750 50  0000 C CNN
+F 1 "1k5" V 6800 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6730 1750 50  0001 C CNN
+F 3 "" H 6800 1750 50  0000 C CNN
+F 4 "MCWR08X1501FTL" V 6800 1750 60  0001 C CNN "Part Number"
+F 5 "Multicomp" V 6800 1750 60  0001 C CNN "Manufacturer"
+F 6 "2447592" V 6800 1750 60  0001 C CNN "Order Code"
+	1    6800 1750
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
