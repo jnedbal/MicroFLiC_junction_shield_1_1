@@ -200,7 +200,7 @@ L CONN_02X08 P6
 U 1 1 566AD7AE
 P 4200 5650
 F 0 "P6" H 4200 6100 50  0000 C CNN
-F 1 "2x8 socket strip" V 4200 5650 50  0000 C CNN
+F 1 "2x8 socket strip" H 4200 5200 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 4200 4450 50  0001 C CNN
 F 3 "" H 4200 4450 50  0000 C CNN
 F 4 "ESQ-108-33-G-D" H 4200 5650 60  0001 C CNN "Part Number"
@@ -236,12 +236,12 @@ LCD_D5
 $Comp
 L GND #PWR034
 U 1 1 566AD7CE
-P 3850 6100
-F 0 "#PWR034" H 3850 5850 50  0001 C CNN
-F 1 "GND" H 3850 5950 50  0000 C CNN
-F 2 "" H 3850 6100 50  0000 C CNN
-F 3 "" H 3850 6100 50  0000 C CNN
-	1    3850 6100
+P 3750 6100
+F 0 "#PWR034" H 3750 5850 50  0001 C CNN
+F 1 "GND" H 3750 5950 50  0000 C CNN
+F 2 "" H 3750 6100 50  0000 C CNN
+F 3 "" H 3750 6100 50  0000 C CNN
+	1    3750 6100
 	1    0    0    -1  
 $EndComp
 Text Label 4550 5600 0    60   ~ 0
@@ -305,7 +305,7 @@ F 2 "Resistors_SMD:R_0805" V 5130 3250 50  0001 C CNN
 F 3 "" H 5200 3250 50  0000 C CNN
 F 4 "MCWR08X1003FTL" V 5200 3250 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 5200 3250 60  0001 C CNN "Manufacturer"
-F 6 "2447551" V 5200 3250 60  0001 C CNN "Order COde"
+F 6 "2447551" V 5200 3250 60  0001 C CNN "Order Code"
 	1    5200 3250
 	-1   0    0    1   
 $EndComp
@@ -409,9 +409,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 5700 5050 5700
 Wire Wire Line
-	3950 6000 3850 6000
+	3950 6000 3750 6000
 Wire Wire Line
-	3850 6000 3850 6100
+	3750 6000 3750 6100
 Wire Wire Line
 	4450 5500 5050 5500
 Wire Wire Line
@@ -453,8 +453,6 @@ Wire Wire Line
 Connection ~ 5200 3500
 Wire Wire Line
 	5200 3100 5200 3000
-Text Notes 4050 4100 0    60   ~ 0
-TTL buffers for 3.3V to 5V level shifting
 Text HLabel 3350 5300 0    60   Input ~ 0
 LCD_A0
 Text HLabel 3350 5400 0    60   Input ~ 0
