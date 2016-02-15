@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_junction_shield_1_0-cache
+LIBS:MicroFLiC_junction_shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

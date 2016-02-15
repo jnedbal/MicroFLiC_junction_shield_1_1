@@ -1,20 +1,20 @@
-Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Order Code
-C1 C2 C3 C4 C5 C6 C7 ,7,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,1759166
-D1 ,1,LED,LEDs:LED-1206,,HSMY-C150,Avago,8554773
-P1 ,1,14-way Micro-MaTch,jakub:1-188275-4,,8-188275-43784769,TE Connectivity,
-P2 ,1,8-way Micro-MaTch,jakub:7-188275-8,,7-188275-8,TE Connectivity,3784733
-P3 ,1,6-way Micro-MaTch,jakub:7-188275-6,,7-188275-6,TE Connectivity,1056234
-P4 ,1,12-way Micro-MaTch,jakub:1-188275-2,,8-188275-2,TE Connectivity,3784757
-P5 ,1,1x4 Socket Strip R/A,Socket_Strips:Socket_Strip_Straight_1x04,,SSW-104-02-G-S-RA,Samtec,1668345
-P6 ,1,2x8 socket strip,Socket_Strips:Socket_Strip_Straight_2x08,,ESQ-108-33-G-D,Samtec,1930550
+Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
+C1 C2 C3 C4 C5 C6 C7 ,7,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
+D1 ,1,LED,LEDs:LED-1206,,HSMY-C150,Avago,,,8554773,,,
+P1 ,1,14-way Micro-MaTch,jakub:1-188275-4,,8-188275-4,TE Connectivity,Micro-MaTch SMD,Farnell,3784769,Mouser,571-8-188275-4,14-way SMD Micro-MaTch connector
+P2 ,1,8-way Micro-MaTch,jakub:7-188275-8,,7-188275-8,TE Connectivity,Micro-MaTch SMD,Farnell,3784733,Mouser,571-7-188275-8,8-way SMD Micro-MaTch connector
+P3 ,1,6-way Micro-MaTch,jakub:7-188275-6,,7-188275-6,TE Connectivity,Micro-MaTch SMD,Farnell,1056234,Mouser,571-71882756,6-way SMD Micro-MaTch connector
+P4 ,1,12-way Micro-MaTch,jakub:1-188275-2,,8-188275-2,TE Connectivity,Micro-MaTch,Farnell,3784757,Mouser,571-8-188275-2,12-way SMD Micro-MaTch connector
+P5 ,1,1x4 Socket Strip R/A,Socket_Strips:Socket_Strip_Straight_1x04,,SSW-104-02-G-S-RA,Samtec,,,1668345,,,
+P6 ,1,2x8 socket strip,Socket_Strips:Socket_Strip_Straight_2x08,,ESQ-108-33-G-D,Samtec,,,1930550,,,
 PP1 PP10 PP11 PP12 PP13 PP14 PP15 PP16 PP17 PP18 PP19 PP2 PP20 PP21 PP22 PP23 PP24 PP25 PP26 PP27 PP28 PP29 PP3 PP30 PP31 PP32 PP33 PP34 PP35 PP36 PP37 PP38 PP39 PP4 PP40 PP41 PP42 PP5 PP6 PP7 PP8 PP9 ,42,CONN_01X01,jakub:PIN_ARRAY_1,
-Q1 Q2 Q3 ,3,TSM2314,TO_SOT_Packages_SMD:SOT-23,,TSM2314CX,Taiwan Semiconductor,1864589
-R1 R12 R2 R6 R7 R8 R9 ,7,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,2447592
-R10 R11 R3 R4 R5 ,5,100k,Resistors_SMD:R_0805,,MCWR08X1003FTL,Multicomp,2447551
-SHIELD1 ,1,ARDUINO_DUE_SHIELD,jakub:ARDUINO_DUE,
-SP1 ,1,PIEZO SOUNDER,jakub:piezo,,PKM13EPYH4000-A0,Murata,1192513
-SW1 ,1,Tactile Switch R/A,jakub:tactileSwitchRA,,MCDTSA6-5N,Multicomp,9471804
-U1 ,1,23LCV1024,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,23LCV1024-I/SN,Microchip,2291919
-U2 ,1,PCA9306DP,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,,PCA9306DP,NXP,2212072
-U3 ,1,DS1338,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,DS1338Z-33,Maxim Integrated,1379714
-X1 ,1,32.768kHz,jakub:Crystal_8.7*3.7mm,,FSRLF327,Fox Electronics,2064035
+Q1 Q2 Q3 ,3,TSM2314,TO_SOT_Packages_SMD:SOT-23,,TSM2314CX,Taiwan Semiconductor,,,1864589,,,
+R1 R12 R2 R6 R7 R8 R9 ,7,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mouser,71-CRCW0805-1.5K-E3,1.5kΩ/1% 0805 resistor
+R10 R11 R3 R4 R5 ,5,100k,Resistors_SMD:R_0805,,MCWR08X1003FTL,Multicomp,0805,Farnell,2447551,Mouser,71-CRCW0805-100K-E3,100kΩ/1% 0805 resistor
+SHIELD1 ,1,ARDUINO_DUE_SHIELD,jakub:ARDUINO_DUE,,A000062,Arduino,Arduino DUE,Farnell,2250861,Mouser,782-A000062,Arduino/Genuino DUE development board
+SP1 ,1,PIEZO SOUNDER,jakub:piezo,,PKM13EPYH4000-A0,Murata,,,1192513,,,
+SW1 ,1,Tactile Switch R/A,jakub:tactileSwitchRA,,MCDTSA6-5N,Multicomp,RA pushbutton,Farnell,9471804,Mouser,506-FSMRA3JH,R/A tactile switch
+U1 ,1,23LCV1024,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,23LCV1024-I/SN,Microchip,SOIC-8,Farnell,2291919,Mouser,579-23LCV1024-I/SN,1 Mbit SPI serial SRAM with battery backup and SDI interface
+U2 ,1,PCA9306DP,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,,PCA9306DP,NXP,,,2212072,,,
+U3 ,1,DS1338,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,DS1338Z-33,Maxim Integrated,,,1379714,,,
+X1 ,1,32.768kHz,jakub:Crystal_8.7*3.7mm,,FSRLF327,Fox Electronics,,,2064035,,,

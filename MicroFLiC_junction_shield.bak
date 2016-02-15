@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_junction_shield_1_0-cache
+LIBS:MicroFLiC_junction_shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -54,7 +54,12 @@ F 2 "jakub:1-188275-4" H 2050 100 50  0001 C CNN
 F 3 "" H 2050 100 50  0000 C CNN
 F 4 "8-188275-4" H 2050 1300 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2050 1300 60  0001 C CNN "Manufacturer"
-F 6 "3784769" H 2050 1300 60  0001 C CNN "Part Number"
+F 6 "Micro-MaTch SMD" H 2050 1300 60  0001 C CNN "Package"
+F 7 "Farnell" H 2050 1300 60  0001 C CNN "Supplier"
+F 8 "3784769" H 2050 1300 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2050 1300 60  0001 C CNN "Alt. Supplier"
+F 10 "571-8-188275-4" H 2050 1300 60  0001 C CNN "Alt. Order Code"
+F 11 "14-way SMD Micro-MaTch connector" H 2050 1300 60  0001 C CNN "Note"
 	1    2050 1300
 	1    0    0    -1  
 $EndComp
@@ -118,7 +123,12 @@ F 2 "jakub:7-188275-8" H 2050 1150 50  0001 C CNN
 F 3 "" H 2050 1150 50  0000 C CNN
 F 4 "7-188275-8" H 2050 2350 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2050 2350 60  0001 C CNN "Manufacturer"
-F 6 "3784733" H 2050 2350 60  0001 C CNN "Order Code"
+F 6 "Micro-MaTch SMD" H 2050 2350 60  0001 C CNN "Package"
+F 7 "Farnell" H 2050 2350 60  0001 C CNN "Supplier"
+F 8 "3784733" H 2050 2350 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2050 2350 60  0001 C CNN "Alt. Supplier"
+F 10 "571-7-188275-8" H 2050 2350 60  0001 C CNN "Alt. Order Code"
+F 11 "8-way SMD Micro-MaTch connector" H 2050 2350 60  0001 C CNN "Note"
 	1    2050 2350
 	1    0    0    -1  
 $EndComp
@@ -150,7 +160,12 @@ F 2 "jakub:7-188275-6" H 2050 2300 50  0001 C CNN
 F 3 "" H 2050 2300 50  0000 C CNN
 F 4 "7-188275-6" H 2050 3500 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2050 3500 60  0001 C CNN "Manufacturer"
-F 6 "1056234" H 2050 3500 60  0001 C CNN "Order Code"
+F 6 "Micro-MaTch SMD" H 2050 3500 60  0001 C CNN "Package"
+F 7 "Farnell" H 2050 3500 60  0001 C CNN "Supplier"
+F 8 "1056234" H 2050 3500 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2050 3500 60  0001 C CNN "Alt. Supplier"
+F 10 "571-71882756" H 2050 3500 60  0001 C CNN "Alt. Order Code"
+F 11 "6-way SMD Micro-MaTch connector" H 2050 3500 60  0001 C CNN "Note"
 	1    2050 3500
 	1    0    0    -1  
 $EndComp
@@ -201,7 +216,12 @@ F 2 "jakub:1-188275-2" H 2050 3550 50  0001 C CNN
 F 3 "" H 2050 3550 50  0000 C CNN
 F 4 "8-188275-2" H 2050 4750 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2050 4750 60  0001 C CNN "Manufacturer"
-F 6 "3784757" H 2050 4750 60  0001 C CNN "Order Code"
+F 6 "Micro-MaTch" H 2050 4750 60  0001 C CNN "Package"
+F 7 "Farnell" H 2050 4750 60  0001 C CNN "Supplier"
+F 8 "3784757" H 2050 4750 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2050 4750 60  0001 C CNN "Alt. Supplier"
+F 10 "571-8-188275-2" H 2050 4750 60  0001 C CNN "Alt. Order Code"
+F 11 "12-way SMD Micro-MaTch connector" H 2050 4750 60  0001 C CNN "Note"
 	1    2050 4750
 	1    0    0    -1  
 $EndComp
@@ -533,7 +553,12 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2650 6050 60  0001 C CNN
 F 3 "" H 2650 6050 60  0000 C CNN
 F 4 "23LCV1024-I/SN" H 2300 6600 60  0001 C CNN "Part Number"
 F 5 "Microchip" H 2300 6600 60  0001 C CNN "Manufacturer"
-F 6 "2291919" H 2300 6600 60  0001 C CNN "Order Code"
+F 6 "SOIC-8" H 2300 6600 60  0001 C CNN "Package"
+F 7 "Farnell" H 2300 6600 60  0001 C CNN "Supplier"
+F 8 "2291919" H 2300 6600 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2300 6600 60  0001 C CNN "Alt. Supplier"
+F 10 "579-23LCV1024-I/SN" H 2300 6600 60  0001 C CNN "Alt. Order Code"
+F 11 "1 Mbit SPI serial SRAM with battery backup and SDI interface" H 2300 6600 60  0001 C CNN "Note"
 	1    2300 6600
 	1    0    0    -1  
 $EndComp
