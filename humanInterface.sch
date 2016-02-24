@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -201,7 +201,8 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 4800 5000 50  0001 C CNN
 F 3 "" H 4600 4900 50  0000 C CNN
 F 4 "TSM2314CX" H 4600 4900 60  0001 C CNN "Part Number"
 F 5 "Taiwan Semiconductor" H 4600 4900 60  0001 C CNN "Manufacturer"
-F 6 "1864589" H 4600 4900 60  0001 C CNN "Order Code"
+F 6 "Farnell" H 4600 4900 60  0001 C CNN "Supplier"
+F 7 "1864589" H 4600 4900 60  0001 C CNN "Order Code"
 	1    4600 4900
 	1    0    0    -1  
 $EndComp

@@ -1,14 +1,14 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.0-2.201512091501+6195~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew "(2015-12-10 BZR 6367)-product")
 
   (general
-    (links 177)
+    (links 175)
     (no_connects 0)
-    (area 124.867999 78.639999 223.112001 132.180001)
+    (area 123.502 73.206 225.827001 132.53)
     (thickness 1.6)
     (drawings 188)
     (tracks 1104)
     (zones 0)
-    (modules 78)
+    (modules 76)
     (nets 94)
   )
 
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
@@ -815,12 +815,12 @@
     )
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A214) (tstamp 566F1485)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AFE) (tstamp 566F1485)
     (at 207.772 126.492)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C2EFE)
-    (fp_text reference PP1 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP2 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -830,12 +830,12 @@
       (net 39 /DAC0))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A219) (tstamp 566F148A)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2B08) (tstamp 566F148A)
     (at 210.312 126.492)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C71DE)
-    (fp_text reference PP2 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP3 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -845,12 +845,12 @@
       (net 40 /DAC1))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A21D) (tstamp 566F148F)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2B10) (tstamp 566F148F)
     (at 212.852 126.492)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C7323)
-    (fp_text reference PP3 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP4 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -860,12 +860,12 @@
       (net 41 /CANR))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A221) (tstamp 566F1494)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2B18) (tstamp 566F1494)
     (at 215.392 126.492)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C732B)
-    (fp_text reference PP4 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP5 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -875,12 +875,12 @@
       (net 42 /CANT))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1FE) (tstamp 566F1499)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AF3) (tstamp 566F1499)
     (at 215.392 120.396)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C7886)
-    (fp_text reference PP5 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP6 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -890,12 +890,12 @@
       (net 43 /D53))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1FA) (tstamp 566F149E)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AEB) (tstamp 566F149E)
     (at 215.392 117.856)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671C59A)
-    (fp_text reference PP6 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP7 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -905,12 +905,12 @@
       (net 44 /D51))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1F5) (tstamp 566F14A3)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AE3) (tstamp 566F14A3)
     (at 212.852 117.856)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671C5A0)
-    (fp_text reference PP7 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP8 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -920,12 +920,12 @@
       (net 45 /D50))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1F1) (tstamp 566F14A8)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2ADA) (tstamp 566F14A8)
     (at 215.392 115.316)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671C5A6)
-    (fp_text reference PP8 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP9 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -935,12 +935,12 @@
       (net 46 /D49))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1EC) (tstamp 566F14AD)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AD3) (tstamp 566F14AD)
     (at 212.852 115.316)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671C5AC)
-    (fp_text reference PP9 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP10 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -950,12 +950,12 @@
       (net 47 /D48))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1E8) (tstamp 566F14B2)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2ACB) (tstamp 566F14B2)
     (at 215.392 112.776)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671C6DC)
-    (fp_text reference PP10 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP11 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -965,12 +965,12 @@
       (net 48 /D47))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1E4) (tstamp 566F14B7)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AC4) (tstamp 566F14B7)
     (at 212.852 112.776)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671C6E2)
-    (fp_text reference PP11 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP12 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -980,42 +980,12 @@
       (net 49 /D46))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1DC) (tstamp 566F14BC)
-    (at 215.392 110.236)
-    (descr "1 pin")
-    (tags "CONN DEV")
-    (path /5671C900)
-    (fp_text reference PP12 (at 0 -1.905) (layer F.SilkS) hide
-      (effects (font (size 0.762 0.762) (thickness 0.1524)))
-    )
-    (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
-      (effects (font (size 0.762 0.762) (thickness 0.1524)))
-    )
-    (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 50 /D43))
-  )
-
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1D7) (tstamp 566F14C1)
-    (at 212.852 110.236)
-    (descr "1 pin")
-    (tags "CONN DEV")
-    (path /5671C906)
-    (fp_text reference PP13 (at 0 -1.905) (layer F.SilkS) hide
-      (effects (font (size 0.762 0.762) (thickness 0.1524)))
-    )
-    (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
-      (effects (font (size 0.762 0.762) (thickness 0.1524)))
-    )
-    (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 51 /D42))
-  )
-
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A121) (tstamp 566F14C6)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2957) (tstamp 566F14C6)
     (at 147.828 84.328)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C2C8E)
-    (fp_text reference PP14 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP13 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1025,12 +995,12 @@
       (net 52 /AREF))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A137) (tstamp 566F14CB)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2962) (tstamp 566F14CB)
     (at 157.988 84.328)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C208A)
-    (fp_text reference PP15 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP14 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1040,12 +1010,12 @@
       (net 53 /D11))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A140) (tstamp 566F14D0)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE296D) (tstamp 566F14D0)
     (at 168.148 84.328)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C27C6)
-    (fp_text reference PP16 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP15 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1055,12 +1025,12 @@
       (net 54 /D5))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A147) (tstamp 566F14D5)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2977) (tstamp 566F14D5)
     (at 184.912 84.328)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C334E)
-    (fp_text reference PP17 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP16 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1070,12 +1040,12 @@
       (net 55 /D1))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A150) (tstamp 566F14DA)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE297F) (tstamp 566F14DA)
     (at 187.452 84.328)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C3264)
-    (fp_text reference PP18 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP17 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1085,12 +1055,12 @@
       (net 90 /D0))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A157) (tstamp 566F14DF)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2987) (tstamp 566F14DF)
     (at 202.692 84.328)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C37C5)
-    (fp_text reference PP19 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP18 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1100,12 +1070,12 @@
       (net 56 /D18))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A15D) (tstamp 566F14E4)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE298F) (tstamp 566F14E4)
     (at 205.232 84.328)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566C37CD)
-    (fp_text reference PP20 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP19 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1115,12 +1085,12 @@
       (net 57 /D19))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A180) (tstamp 566F14E9)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29B0) (tstamp 566F14E9)
     (at 210.312 87.376)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671CE36)
-    (fp_text reference PP21 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP20 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1130,12 +1100,12 @@
       (net 58 /D23))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A188) (tstamp 566F14EE)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29B7) (tstamp 566F14EE)
     (at 212.852 87.376)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671CE3C)
-    (fp_text reference PP22 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP21 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1145,12 +1115,12 @@
       (net 59 /D24))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A191) (tstamp 566F14F3)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29BE) (tstamp 566F14F3)
     (at 215.392 87.376)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671CF1C)
-    (fp_text reference PP23 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP22 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1160,12 +1130,12 @@
       (net 60 /D25))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A19E) (tstamp 566F14F8)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29D2) (tstamp 566F14F8)
     (at 212.852 89.916)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671CF22)
-    (fp_text reference PP24 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP23 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1175,12 +1145,12 @@
       (net 61 /D26))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1A4) (tstamp 566F14FD)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29DE) (tstamp 566F14FD)
     (at 215.392 89.916)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671D05E)
-    (fp_text reference PP25 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP24 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1190,12 +1160,12 @@
       (net 62 /D27))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1B4) (tstamp 566F1502)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29E5) (tstamp 566F1502)
     (at 212.852 92.456)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671D064)
-    (fp_text reference PP26 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP25 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1205,12 +1175,12 @@
       (net 63 /D28))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1BB) (tstamp 566F1507)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2A1F) (tstamp 566F1507)
     (at 215.392 92.456)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671D06A)
-    (fp_text reference PP27 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP26 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1220,12 +1190,12 @@
       (net 64 /D29))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1C4) (tstamp 566F150C)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2A5A) (tstamp 566F150C)
     (at 212.852 94.996)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671D070)
-    (fp_text reference PP28 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP27 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1235,12 +1205,12 @@
       (net 65 /D30))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1CC) (tstamp 566F1511)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2A53) (tstamp 566F1511)
     (at 215.392 94.996)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671D15C)
-    (fp_text reference PP29 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP28 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1250,12 +1220,12 @@
       (net 66 /D31))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1D0) (tstamp 566F1516)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2A39) (tstamp 566F1516)
     (at 212.852 97.536)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /5671D162)
-    (fp_text reference PP30 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP29 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1265,12 +1235,12 @@
       (net 67 /D32))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A197) (tstamp 566F151B)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29CA) (tstamp 566F151B)
     (at 210.312 89.916)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/566CC01D)
-    (fp_text reference PP31 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP30 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1280,7 +1250,7 @@
       (net 1 +3V3))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1C0) (tstamp 566F1520)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2A72) (tstamp 566F1520)
     (at 210.312 94.996)
     (descr "1 pin")
     (tags "CONN DEV")
@@ -1295,12 +1265,12 @@
       (net 1 +3V3))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A1AB) (tstamp 566F1525)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2719) (tstamp 566F1525)
     (at 210.312 92.456)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/566CC02B)
-    (fp_text reference PP33 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP31 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1310,12 +1280,12 @@
       (net 1 +3V3))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A163) (tstamp 566F152A)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2997) (tstamp 566F152A)
     (at 210.312 84.836)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/5671D822)
-    (fp_text reference PP34 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP31 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1325,12 +1295,12 @@
       (net 3 +5V))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A16E) (tstamp 566F152F)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29A0) (tstamp 566F152F)
     (at 212.852 84.836)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/5671D828)
-    (fp_text reference PP35 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP32 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1340,12 +1310,12 @@
       (net 3 +5V))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A174) (tstamp 566F1534)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE29A7) (tstamp 566F1534)
     (at 215.392 84.836)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/5671D82E)
-    (fp_text reference PP36 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP33 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -1355,7 +1325,7 @@
       (net 3 +5V))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A510) (tstamp 566F1539)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2A98) (tstamp 566F1539)
     (at 212.852 102.616)
     (descr "1 pin")
     (tags "CONN DEV")
@@ -1370,7 +1340,7 @@
       (net 2 GND))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A516) (tstamp 566F153E)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AA0) (tstamp 566F153E)
     (at 215.392 102.616)
     (descr "1 pin")
     (tags "CONN DEV")
@@ -1385,12 +1355,12 @@
       (net 2 GND))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A50A) (tstamp 566F1543)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2A8E) (tstamp 566F1543)
     (at 210.312 102.616)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/5671D8AC)
-    (fp_text reference PP39 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP36 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
@@ -2075,11 +2045,26 @@
     )
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A203) (tstamp 567149BD)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AA8) (tstamp 567149BD)
     (at 210.312 123.698)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/5671D918)
+    (fp_text reference PP39 (at 0 -1.905) (layer F.SilkS) hide
+      (effects (font (size 0.762 0.762) (thickness 0.1524)))
+    )
+    (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
+      (effects (font (size 0.762 0.762) (thickness 0.1524)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
+      (net 2 GND))
+  )
+
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2AB4) (tstamp 567149C2)
+    (at 212.852 123.698)
+    (descr "1 pin")
+    (tags "CONN DEV")
+    (path /566CBCB2/5671D91E)
     (fp_text reference PP40 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
@@ -2090,27 +2075,12 @@
       (net 2 GND))
   )
 
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A207) (tstamp 567149C2)
-    (at 212.852 123.698)
-    (descr "1 pin")
-    (tags "CONN DEV")
-    (path /566CBCB2/5671D91E)
-    (fp_text reference PP41 (at 0 -1.905) (layer F.SilkS) hide
-      (effects (font (size 0.762 0.762) (thickness 0.1524)))
-    )
-    (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
-      (effects (font (size 0.762 0.762) (thickness 0.1524)))
-    )
-    (pad 1 thru_hole rect (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
-      (net 2 GND))
-  )
-
-  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5671A20C) (tstamp 567149C7)
+  (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 56CE2ABB) (tstamp 567149C7)
     (at 215.392 123.698)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /566CBCB2/5671D924)
-    (fp_text reference PP42 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text reference PP41 (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_01X01 (at 0 -1.905) (layer F.SilkS) hide
