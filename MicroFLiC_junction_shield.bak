@@ -433,11 +433,16 @@ U 1 1 566A4189
 P 8300 3050
 F 0 "P5" H 8300 3300 50  0000 C CNN
 F 1 "1x4 Socket Strip R/A" V 8400 3050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x04" H 8300 3050 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 8300 3050 50  0001 C CNN
 F 3 "" H 8300 3050 50  0000 C CNN
 F 4 "SSW-104-02-G-S-RA" H 8300 3050 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 8300 3050 60  0001 C CNN "Manufacturer"
-F 6 "1668345" H 8300 3050 60  0001 C CNN "Order Code"
+F 6 "SIL-4" H 8300 3050 60  0001 C CNN "Package"
+F 7 "Farnell" H 8300 3050 60  0001 C CNN "Supplier"
+F 8 "1668345" H 8300 3050 60  0001 C CNN "Order Code"
+F 9 "Samtec" H 8300 3050 60  0001 C CNN "Alt. Supplier"
+F 10 "SSW-104-02-G-S-RA" H 8300 3050 60  0001 C CNN "Alt. Order Code"
+F 11 "1x4 right-angle socket" H 8300 3050 60  0001 C CNN "Note"
 	1    8300 3050
 	1    0    0    -1  
 $EndComp
@@ -980,7 +985,6 @@ F 0 "PP13" H 7400 1100 50  0000 L CNN
 F 1 "CONN_01X01" V 7400 1100 50  0001 C CNN
 F 2 "jakub:PIN_ARRAY_1" H 7300 1100 50  0001 C CNN
 F 3 "" H 7300 1100 50  0000 C CNN
-F 4 "Farnell" H 7300 1100 60  0001 C CNN "Supplier"
 	1    7300 1100
 	1    0    0    -1  
 $EndComp

@@ -67,7 +67,12 @@ F 2 "LEDs:LED-1206" H 4700 1600 50  0001 C CNN
 F 3 "" H 4700 1600 50  0000 C CNN
 F 4 "HSMY-C150" H 4700 1600 60  0001 C CNN "Part Number"
 F 5 "Avago" H 4700 1600 60  0001 C CNN "Manufacturer"
-F 6 "8554773" H 4700 1600 60  0001 C CNN "Order Code"
+F 6 "1206" H 4700 1600 60  0001 C CNN "Package"
+F 7 "Farnell" H 4700 1600 60  0001 C CNN "Supplier"
+F 8 "8554773" H 4700 1600 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4700 1600 60  0001 C CNN "Alt. Supplier"
+F 10 "630-HSMY-C150" H 4700 1600 60  0001 C CNN "Alt. Order Code"
+F 11 "Yellow 1206 LED" H 4700 1600 60  0001 C CNN "Note"
 	1    4700 1600
 	0    -1   -1   0   
 $EndComp
@@ -96,7 +101,12 @@ F 2 "jakub:piezo" H 5300 4100 50  0001 C CNN
 F 3 "" H 5300 4100 50  0000 C CNN
 F 4 "PKM13EPYH4000-A0" H 5300 4100 60  0001 C CNN "Part Number"
 F 5 "Murata" H 5300 4100 60  0001 C CNN "Manufacturer"
-F 6 "1192513" H 5300 4100 60  0001 C CNN "Order Code"
+F 6 "⌀12.6mm" H 5300 4100 60  0001 C CNN "Package"
+F 7 "Farnell" H 5300 4100 60  0001 C CNN "Supplier"
+F 8 "1192513" H 5300 4100 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5300 4100 60  0001 C CNN "Alt. Supplier"
+F 10 "81-PKM13EPYH4000-A0" H 5300 4100 60  0001 C CNN "Alt. Order Code"
+F 11 "4kHz piezo sounder" H 5300 4100 60  0001 C CNN "Note"
 	1    5300 4100
 	1    0    0    -1  
 $EndComp
@@ -173,7 +183,12 @@ F 2 "Capacitors_SMD:C_0805" H 4438 4100 50  0001 C CNN
 F 3 "" H 4400 4250 50  0000 C CNN
 F 4 "MC0805B104K250CT" H 4400 4250 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 4400 4250 60  0001 C CNN "Manufacturer"
-F 6 "1759166" H 4400 4250 60  0001 C CNN "Order Code"
+F 6 "0805" H 4400 4250 60  0001 C CNN "Package"
+F 7 "Farnell" H 4400 4250 60  0001 C CNN "Supplier"
+F 8 "1759166" H 4400 4250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4400 4250 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012207098" H 4400 4250 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0805 ceramic capacitor" H 4400 4250 60  0001 C CNN "Note"
 	1    4400 4250
 	1    0    0    -1  
 $EndComp
@@ -187,7 +202,12 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 4800 2600 50  0001 C CNN
 F 3 "" H 4600 2500 50  0000 C CNN
 F 4 "TSM2314CX" H 4600 2500 60  0001 C CNN "Part Number"
 F 5 "Taiwan Semiconductor" H 4600 2500 60  0001 C CNN "Manufacturer"
-F 6 "1864589" H 4600 2500 60  0001 C CNN "Order Code"
+F 6 "SOT-23" H 4600 2500 60  0001 C CNN "Package"
+F 7 "Farnell" H 4600 2500 60  0001 C CNN "Supplier"
+F 8 "1864589" H 4600 2500 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4600 2500 60  0001 C CNN "Alt. Supplier"
+F 10 "781-SI2314EDS-E3" H 4600 2500 60  0001 C CNN "Alt. Order Code"
+F 11 "N-channel SOT-23 MOSFET" H 4600 2500 60  0001 C CNN "Note"
 	1    4600 2500
 	1    0    0    -1  
 $EndComp
@@ -201,8 +221,12 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 4800 5000 50  0001 C CNN
 F 3 "" H 4600 4900 50  0000 C CNN
 F 4 "TSM2314CX" H 4600 4900 60  0001 C CNN "Part Number"
 F 5 "Taiwan Semiconductor" H 4600 4900 60  0001 C CNN "Manufacturer"
-F 6 "Farnell" H 4600 4900 60  0001 C CNN "Supplier"
-F 7 "1864589" H 4600 4900 60  0001 C CNN "Order Code"
+F 6 "SOT-23" H 4600 4900 60  0001 C CNN "Package"
+F 7 "Farnell" H 4600 4900 60  0001 C CNN "Supplier"
+F 8 "1864589" H 4600 4900 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4600 4900 60  0001 C CNN "Alt. Supplier"
+F 10 "781-SI2314EDS-E3" H 4600 4900 60  0001 C CNN "Alt. Order Code"
+F 11 "N-channel SOT-23 MOSFET" H 4600 4900 60  0001 C CNN "Note"
 	1    4600 4900
 	1    0    0    -1  
 $EndComp
@@ -216,7 +240,12 @@ F 2 "Resistors_SMD:R_0805" V 4630 2050 50  0001 C CNN
 F 3 "" H 4700 2050 50  0000 C CNN
 F 4 "MCWR08X1501FTL" V 4700 2050 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 4700 2050 60  0001 C CNN "Manufacturer"
-F 6 "2447592" V 4700 2050 60  0001 C CNN "Order Code"
+F 6 "0805" H 4700 2050 60  0001 C CNN "Package"
+F 7 "Farnell" H 4700 2050 60  0001 C CNN "Supplier"
+F 8 "2447592" V 4700 2050 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4700 2050 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-1.5K-E3" H 4700 2050 60  0001 C CNN "Alt. Order Code"
+F 11 "1.5kΩ/1% 0805 resistor" H 4700 2050 60  0001 C CNN "Note"
 	1    4700 2050
 	1    0    0    -1  
 $EndComp
@@ -230,7 +259,12 @@ F 2 "Resistors_SMD:R_0805" V 4630 4250 50  0001 C CNN
 F 3 "" H 4700 4250 50  0000 C CNN
 F 4 "MCWR08X1501FTL" V 4700 4250 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 4700 4250 60  0001 C CNN "Manufacturer"
-F 6 "2447592" V 4700 4250 60  0001 C CNN "Order Code"
+F 6 "0805" H 4700 4250 60  0001 C CNN "Package"
+F 7 "Farnell" H 4700 4250 60  0001 C CNN "Supplier"
+F 8 "2447592" V 4700 4250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4700 4250 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-1.5K-E3" H 4700 4250 60  0001 C CNN "Alt. Order Code"
+F 11 "1.5kΩ/1% 0805 resistor" H 4700 4250 60  0001 C CNN "Note"
 	1    4700 4250
 	1    0    0    -1  
 $EndComp
