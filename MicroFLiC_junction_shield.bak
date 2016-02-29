@@ -442,7 +442,7 @@ F 7 "Farnell" H 8300 3050 60  0001 C CNN "Supplier"
 F 8 "1668345" H 8300 3050 60  0001 C CNN "Order Code"
 F 9 "Samtec" H 8300 3050 60  0001 C CNN "Alt. Supplier"
 F 10 "SSW-104-02-G-S-RA" H 8300 3050 60  0001 C CNN "Alt. Order Code"
-F 11 "1x4 right-angle socket" H 8300 3050 60  0001 C CNN "Note"
+F 11 "1x4 right-angle socket strip" H 8300 3050 60  0001 C CNN "Note"
 	1    8300 3050
 	1    0    0    -1  
 $EndComp
