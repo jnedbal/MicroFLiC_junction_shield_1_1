@@ -828,15 +828,10 @@
       (net 2 GND))
     (pad 16 thru_hole oval (at 17.78 2.54 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 78 /LCDandRTC/LCD_D4))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x08.wrl
-      (at (xyz 0.35 -0.05 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
     (model jakub.3dshapes/connectors/board2board/esq-108-33-g-d.wrl
-      (at (xyz 0 0 0))
+      (at (xyz 0.35 -0.05 0.3))
       (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 90 0 0))
+      (rotate (xyz 270 0 0))
     )
   )
 

@@ -1,6 +1,6 @@
 Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
 C1 C2 C3 C4 C5 C6 C7 ,7,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
-D1 ,1,LED,LEDs:LED-1206,,HSMY-C150,Avago,1206,Farnell,8554773,Mouser,630-HSMY-C150,Yellow 1206 LED
+D1 ,1,LED,LEDs:LED-1206,,HSMY-C150,Avago,1206,Farnell,2497382,Mouser,630-HSMY-C150,Yellow 1206 LED
 D2 ,1,1N4148,Diodes_SMD:SOD-323,,1N4148WS,Multicomp,SOD-323,Farnell,1466524,Mouser,512-1N4148WS,Small signal SOD-323 diode
 P1 ,1,14-way Micro-MaTch,jakub:1-188275-4,,8-188275-4,TE Connectivity,Micro-MaTch SMD,Farnell,3784769,Mouser,571-8-188275-4,14-way SMD Micro-MaTch connector
 P2 ,1,8-way Micro-MaTch,jakub:7-188275-8,,7-188275-8,TE Connectivity,Micro-MaTch SMD,Farnell,3784733,Mouser,571-7-188275-8,8-way SMD Micro-MaTch connector

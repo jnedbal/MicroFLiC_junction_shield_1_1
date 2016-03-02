@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_junction_shield_1_1/MicroFLiC_junction_shield.sch</source>
-    <date>Thu 25 Feb 2016 15:08:22 GMT</date>
+    <date>Wed 02 Mar 2016 12:27:37 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -554,7 +554,7 @@
         <field name="Manufacturer">Avago</field>
         <field name="Package">1206</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">8554773</field>
+        <field name="Order Code">2497382</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">630-HSMY-C150</field>
         <field name="Note">Yellow 1206 LED</field>
@@ -1476,14 +1476,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="jakub">
-      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
   </libraries>
   <nets>
