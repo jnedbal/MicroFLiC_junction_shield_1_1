@@ -71,7 +71,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 124.968 132.08)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -727,7 +727,7 @@
     (fp_text reference P5 (at -2.54 0 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value "1x4 Socket Strip R/A" (at 0 -3.1 90) (layer F.Fab) hide
+    (fp_text value "1x4 socket strip R/A" (at 0 -3.1 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
@@ -1877,7 +1877,7 @@
     (fp_text reference U2 (at 1.016 2.54 360) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value PCA9306DP (at 0 2.6 270) (layer F.Fab) hide
+    (fp_text value PCA9306 (at 0 2.6 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.2 -1.85) (end -3.2 1.85) (layer F.CrtYd) (width 0.05))
@@ -1999,7 +1999,7 @@
     (fp_text reference SP1 (at -4.572 -6.096) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value "PIEZO SOUNDER" (at 0 -2.54) (layer F.SilkS) hide
+    (fp_text value "Piezo sounder" (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_circle (center 0 0) (end -6.3 0) (layer F.SilkS) (width 0.3048))
@@ -2020,7 +2020,7 @@
     (fp_text reference SW1 (at 0 1.27 270) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value "Tactile Switch R/A" (at 0 3.175 270) (layer F.Fab) hide
+    (fp_text value "Tactile switch R/A" (at 0 3.175 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.2 -8.15) (end 1.2 -8.15) (layer F.SilkS) (width 0.15))
@@ -2093,13 +2093,13 @@
       (net 2 GND))
   )
 
-  (module jakub:ARDUINO_DUE (layer F.Cu) (tedit 56719BE8) (tstamp 566F1604)
+  (module jakub:ARDUINO_DUE (layer F.Cu) (tedit 56EC61B6) (tstamp 566F1604)
     (at 123.952 132.08)
     (path /56685571)
-    (fp_text reference SHIELD1 (at 6.35 -57.15) (layer F.SilkS) hide
+    (fp_text reference A1 (at 6.35 -57.15) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value ARDUINO_DUE_SHIELD (at 13.97 -54.61) (layer F.SilkS) hide
+    (fp_text value "Arduino DUE" (at 13.97 -54.61) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 0 -12.7) (end 12.065 -12.7) (layer F.SilkS) (width 0.15))
@@ -2313,36 +2313,6 @@
     )
   )
 
-  (module Diodes_SMD:SOD-323 (layer F.Cu) (tedit 56CE4875) (tstamp 56CE402C)
-    (at 201.422 110.998)
-    (descr SOD-323)
-    (tags SOD-323)
-    (path /56CE918D/56CEA4B4)
-    (attr smd)
-    (fp_text reference D2 (at 0 -1.524) (layer F.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.11)))
-    )
-    (fp_text value 1N4148 (at 0.1 1.9) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 0.25 0) (end 0.5 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.25 0) (end -0.5 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.25 0) (end 0.25 -0.35) (layer F.SilkS) (width 0.15))
-    (fp_line (start 0.25 -0.35) (end 0.25 0.35) (layer F.SilkS) (width 0.15))
-    (fp_line (start 0.25 0.35) (end -0.25 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.25 -0.35) (end -0.25 0.35) (layer F.SilkS) (width 0.15))
-    (fp_line (start -1.5 -0.95) (end 1.5 -0.95) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.5 -0.95) (end 1.5 0.95) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.5 0.95) (end 1.5 0.95) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.5 -0.95) (end -1.5 0.95) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.3 0.8) (end 1.1 0.8) (layer F.SilkS) (width 0.15))
-    (fp_line (start -1.3 -0.8) (end 1.1 -0.8) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.055 0) (size 0.59 0.45) (layers F.Cu F.Paste F.Mask)
-      (net 91 /MCUswitch/~MCU_OFF))
-    (pad 2 smd rect (at 1.055 0) (size 0.59 0.45) (layers F.Cu F.Paste F.Mask)
-      (net 92 /MCUswitch/~SW_SENSE))
-  )
-
   (module jakub:PIN_ARRAY_1 (layer F.Cu) (tedit 5318AEDA) (tstamp 56CE4031)
     (at 192.532 126.492)
     (descr "1 pin")
@@ -2447,6 +2417,41 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module jakub:SOD-323 (layer F.Cu) (tedit 56EC5991) (tstamp 56EC90BE)
+    (at 201.422 110.998)
+    (descr SOD-323)
+    (tags SOD-323)
+    (path /56CE918D/56CEA4B4)
+    (attr smd)
+    (fp_text reference D2 (at 0 -1.524) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.11)))
+    )
+    (fp_text value 1N4148 (at 0.1 1.9) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0.25 0) (end 0.5 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.25 0) (end -0.5 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.25 0) (end 0.25 -0.35) (layer F.SilkS) (width 0.15))
+    (fp_line (start 0.25 -0.35) (end 0.25 0.35) (layer F.SilkS) (width 0.15))
+    (fp_line (start 0.25 0.35) (end -0.25 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.25 -0.35) (end -0.25 0.35) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.5 -0.95) (end 1.5 -0.95) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.5 -0.95) (end 1.5 0.95) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.5 0.95) (end 1.5 0.95) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.5 -0.95) (end -1.5 0.95) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.3 0.8) (end 1.1 0.8) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1.3 -0.8) (end 1.1 -0.8) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.055 0) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask)
+      (net 91 /MCUswitch/~MCU_OFF))
+    (pad 2 smd rect (at 1.055 0) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask)
+      (net 92 /MCUswitch/~SW_SENSE))
+    (model jakub.3dshapes/diodes/sod323.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
