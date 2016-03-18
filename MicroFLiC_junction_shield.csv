@@ -1,6 +1,7 @@
 Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
 A1 ,1,Arduino DUE,jakub:ARDUINO_DUE,,A000062,Arduino,Arduino DUE,Farnell,2250861,Mouser,782-A000062,Arduino/Genuino DUE development board
-C1 C2 C3 C4 C5 C6 C7 ,7,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
+C1 C2 C3 C4 C5 C7 ,6,100n,Capacitors_SMD:C_0805,,MC0805B104K250CT,Multicomp,0805,Farnell,1759166,Mouser,710-885012207098,100nF/50V X7R 0805 ceramic capacitor
+C6 ,1,100p,Capacitors_SMD:C_0805,,CGA4C2C0G2A101J060AA,TDK,0805,Farnell,2210931,Mouser,810-CGA4C2C0G2A101J,100pF/100V C0G(NP0) 0805 ceramic capacitor
 D1 ,1,LED,LEDs:LED-1206,,HSMY-C150,Broadcom,1206,Farnell,2497382,Mouser,630-HSMY-C150,Yellow 1206 LED
 D2 ,1,1N4148,jakub:SOD-323,,1N4148WS,Multicomp,SOD-323,Farnell,1466524,Mouser,512-1N4148WS,Small signal SOD-323 diode
 P1 ,1,14-way Micro-MaTch,jakub:1-188275-4,,8-188275-4,TE Connectivity,Micro-MaTch SMD,Farnell,3784769,Mouser,571-8-188275-4,14-way SMD Micro-MaTch connector
@@ -15,8 +16,8 @@ P7 ,1,2x18 header strip,,,61303621121,Wurth Elektronik,DIL-36,Farnell,2356147,Mo
 P10 P11 P12 P8 P9 ,5,1x8 header strip,,,M20-9990845,Harwin,SIL-8,Farnell,1022256,Mouser,855-M20-9990845,1x8 header strip
 PP1 PP10 PP11 PP12 PP13 PP14 PP15 PP16 PP17 PP18 PP19 PP2 PP20 PP21 PP22 PP23 PP24 PP25 PP26 PP27 PP28 PP29 PP3 PP30 PP31 PP32 PP33 PP34 PP35 PP36 PP37 PP38 PP39 PP4 PP40 PP41 PP5 PP6 PP7 PP8 PP9 ,41,CONN_01X01,jakub:PIN_ARRAY_1,
 Q1 Q2 Q3 Q4 ,4,TSM2314,TO_SOT_Packages_SMD:SOT-23,,TSM2314CX,Taiwan Semiconductor,SOT-23,Farnell,1864589,Mouser,781-SI2314EDS-E3,N-channel SOT-23 MOSFET
-R1 R12 R2 R6 R7 R8 R9 ,7,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mouser,71-CRCW0805-1.5K-E3,1.5kΩ/1% 0805 resistor
-R10 R11 R13 R14 R3 R4 R5 ,7,100k,Resistors_SMD:R_0805,,MCWR08X1003FTL,Multicomp,0805,Farnell,2447551,Mouser,71-CRCW0805-100K-E3,100kΩ/1% 0805 resistor
+R1 R2 R6 R7 R8 R9 ,6,1k5,Resistors_SMD:R_0805,,MCWR08X1501FTL,Multicomp,0805,Farnell,2447592,Mouser,71-CRCW0805-1.5K-E3,1.5kΩ/1% 0805 resistor
+R10 R11 R12 R13 R14 R3 R4 R5 ,8,100k,Resistors_SMD:R_0805,,MCWR08X1003FTL,Multicomp,0805,Farnell,2447551,Mouser,71-CRCW0805-100K-E3,100kΩ/1% 0805 resistor
 SP1 ,1,Piezo sounder,jakub:piezo,,PKM13EPYH4000-A0,Murata,⌀12.6mm,Farnell,1192513,Mouser,81-PKM13EPYH4000-A0,4kHz piezo sounder
 SW1 ,1,Tactile switch R/A,jakub:tactileSwitchRA,,MCDTSA6-5N,Multicomp,R/A pushbutton,Farnell,9471804,Mouser,506-FSMRA3JH,Right-angle tactile switch
 U1 ,1,23LCV1024,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,23LCV1024-I/SN,Microchip,SOIC-8,Farnell,2291919,Mouser,579-23LCV1024-I/SN,1 Mbit SPI serial SRAM with battery backup and SDI interface

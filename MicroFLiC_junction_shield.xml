@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_junction_shield_1_1/MicroFLiC_junction_shield.sch</source>
-    <date>Fri 18 Mar 2016 20:09:53 GMT</date>
+    <date>Fri 18 Mar 2016 20:37:40 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -836,17 +836,17 @@
       <tstamp>56754716</tstamp>
     </comp>
     <comp ref="C6">
-      <value>100n</value>
+      <value>100p</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
-        <field name="Part Number">MC0805B104K250CT</field>
-        <field name="Manufacturer">Multicomp</field>
+        <field name="Part Number">CGA4C2C0G2A101J060AA</field>
+        <field name="Manufacturer">TDK</field>
         <field name="Package">0805</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">1759166</field>
+        <field name="Order Code">2210931</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">710-885012207098</field>
-        <field name="Note">100nF/50V X7R 0805 ceramic capacitor</field>
+        <field name="Alt. Order Code">810-CGA4C2C0G2A101J</field>
+        <field name="Note">100pF/100V C0G(NP0) 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/LCDandRTC/" tstamps="/566AC4BE/"/>
@@ -870,21 +870,21 @@
       <tstamp>56754CC8</tstamp>
     </comp>
     <comp ref="R12">
-      <value>1k5</value>
+      <value>100k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
-        <field name="Part Number">MCWR08X1501FTL</field>
+        <field name="Part Number">MCWR08X1003FTL</field>
         <field name="Manufacturer">Multicomp</field>
         <field name="Package">0805</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">2447592</field>
+        <field name="Order Code">2447551</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">71-CRCW0805-1.5K-E3</field>
-        <field name="Note">1.5kΩ/1% 0805 resistor</field>
+        <field name="Alt. Order Code">71-CRCW0805-100K-E3</field>
+        <field name="Note">100kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/LCDandRTC/" tstamps="/566AC4BE/"/>
-      <tstamp>56754D8D</tstamp>
+      <tstamp>56EC826B</tstamp>
     </comp>
     <comp ref="PP31">
       <value>CONN_01X01</value>
@@ -1706,11 +1706,11 @@
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="jakub">
-      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1906,65 +1906,65 @@
       <node ref="U1" pin="8"/>
       <node ref="C1" pin="1"/>
       <node ref="D1" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R2" pin="1"/>
       <node ref="R1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="1"/>
       <node ref="R5" pin="1"/>
       <node ref="C3" pin="1"/>
-      <node ref="R4" pin="1"/>
       <node ref="R3" pin="1"/>
+      <node ref="C2" pin="1"/>
     </net>
     <net code="47" name="/SDA1">
+      <node ref="A1" pin="SDA1"/>
       <node ref="P4" pin="12"/>
       <node ref="R2" pin="2"/>
-      <node ref="A1" pin="SDA1"/>
     </net>
     <net code="48" name="/SCL1">
+      <node ref="P4" pin="11"/>
       <node ref="A1" pin="SCL1"/>
       <node ref="R1" pin="2"/>
-      <node ref="P4" pin="11"/>
     </net>
     <net code="49" name="/humanInterface/LED13">
-      <node ref="A1" pin="13"/>
       <node ref="Q1" pin="1"/>
+      <node ref="A1" pin="13"/>
     </net>
     <net code="50" name="/humanInterface/PIEZO12">
-      <node ref="A1" pin="12"/>
       <node ref="Q2" pin="1"/>
+      <node ref="A1" pin="12"/>
     </net>
     <net code="51" name="GND">
-      <node ref="P3" pin="4"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="P3" pin="2"/>
-      <node ref="PP36" pin="1"/>
-      <node ref="PP40" pin="1"/>
-      <node ref="PP39" pin="1"/>
       <node ref="PP38" pin="1"/>
+      <node ref="PP36" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="R13" pin="2"/>
       <node ref="PP37" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="P3" pin="6"/>
+      <node ref="PP39" pin="1"/>
+      <node ref="PP40" pin="1"/>
+      <node ref="Q4" pin="2"/>
       <node ref="U1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P3" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="P3" pin="6"/>
+      <node ref="U2" pin="1"/>
       <node ref="A1" pin="GND5"/>
       <node ref="P5" pin="2"/>
-      <node ref="PP41" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="U3" pin="4"/>
       <node ref="Q3" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C3" pin="2"/>
       <node ref="A1" pin="GND1"/>
-      <node ref="C7" pin="2"/>
+      <node ref="PP41" pin="1"/>
       <node ref="P6" pin="15"/>
+      <node ref="C2" pin="2"/>
       <node ref="A1" pin="GND2"/>
       <node ref="A1" pin="GND3"/>
-      <node ref="C2" pin="2"/>
       <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
       <node ref="A1" pin="GND4"/>
+      <node ref="C6" pin="2"/>
     </net>
     <net code="52" name="Net-(P4-Pad10)">
       <node ref="P4" pin="10"/>
@@ -1996,20 +1996,20 @@
       <node ref="A1" pin="39"/>
     </net>
     <net code="56" name="/LCDandRTC/LCD_D5">
-      <node ref="P6" pin="14"/>
       <node ref="A1" pin="38"/>
+      <node ref="P6" pin="14"/>
     </net>
     <net code="57" name="/LCDandRTC/LCD_D4">
-      <node ref="A1" pin="37"/>
       <node ref="P6" pin="16"/>
+      <node ref="A1" pin="37"/>
     </net>
     <net code="58" name="/LCDandRTC/LCD_D3">
-      <node ref="P6" pin="13"/>
       <node ref="A1" pin="36"/>
+      <node ref="P6" pin="13"/>
     </net>
     <net code="59" name="/LCDandRTC/LCD_D2">
-      <node ref="P6" pin="11"/>
       <node ref="A1" pin="35"/>
+      <node ref="P6" pin="11"/>
     </net>
     <net code="60" name="/LCDandRTC/SDA">
       <node ref="U2" pin="3"/>
@@ -2024,47 +2024,47 @@
       <node ref="P6" pin="10"/>
     </net>
     <net code="63" name="/BTTX">
-      <node ref="A1" pin="14"/>
       <node ref="P5" pin="3"/>
+      <node ref="A1" pin="14"/>
     </net>
     <net code="64" name="/BTRX">
       <node ref="P5" pin="4"/>
       <node ref="A1" pin="15"/>
     </net>
     <net code="65" name="/LCDandRTC/~LCD_CS">
-      <node ref="P6" pin="5"/>
       <node ref="A1" pin="41"/>
+      <node ref="P6" pin="5"/>
     </net>
     <net code="66" name="/LCDandRTC/LCD_A0">
-      <node ref="P6" pin="1"/>
       <node ref="A1" pin="45"/>
+      <node ref="P6" pin="1"/>
     </net>
     <net code="67" name="/LCDandRTC/LCD_A1">
-      <node ref="P6" pin="3"/>
       <node ref="A1" pin="44"/>
+      <node ref="P6" pin="3"/>
     </net>
     <net code="68" name="/LCDandRTC/LCD_D0">
-      <node ref="P6" pin="7"/>
       <node ref="A1" pin="33"/>
+      <node ref="P6" pin="7"/>
     </net>
     <net code="69" name="/LCDandRTC/LCD_D1">
       <node ref="A1" pin="34"/>
       <node ref="P6" pin="9"/>
     </net>
     <net code="70" name="/SW1">
-      <node ref="P1" pin="2"/>
       <node ref="A1" pin="AD3"/>
+      <node ref="P1" pin="2"/>
     </net>
     <net code="71" name="/MISO">
-      <node ref="U1" pin="2"/>
-      <node ref="P1" pin="3"/>
       <node ref="A1" pin="MISO"/>
+      <node ref="P1" pin="3"/>
       <node ref="P2" pin="5"/>
+      <node ref="U1" pin="2"/>
     </net>
     <net code="72" name="/SPCK">
-      <node ref="P1" pin="1"/>
       <node ref="U1" pin="6"/>
       <node ref="A1" pin="SPCK"/>
+      <node ref="P1" pin="1"/>
       <node ref="P2" pin="3"/>
     </net>
     <net code="73" name="/A0">
@@ -2076,23 +2076,23 @@
       <node ref="A1" pin="AD4"/>
     </net>
     <net code="75" name="/SW3">
-      <node ref="A1" pin="AD5"/>
       <node ref="P1" pin="6"/>
+      <node ref="A1" pin="AD5"/>
     </net>
     <net code="76" name="/~SS_EXT">
-      <node ref="A1" pin="10"/>
       <node ref="R4" pin="2"/>
+      <node ref="A1" pin="10"/>
       <node ref="P1" pin="7"/>
     </net>
     <net code="77" name="/SW4">
-      <node ref="P1" pin="8"/>
       <node ref="A1" pin="AD6"/>
+      <node ref="P1" pin="8"/>
     </net>
     <net code="78" name="/MOSI">
       <node ref="A1" pin="MOSI"/>
       <node ref="P1" pin="5"/>
-      <node ref="P2" pin="4"/>
       <node ref="U1" pin="5"/>
+      <node ref="P2" pin="4"/>
     </net>
     <net code="79" name="/LCDandRTC/~RST">
       <node ref="P1" pin="10"/>
@@ -2113,13 +2113,13 @@
       <node ref="P1" pin="13"/>
     </net>
     <net code="83" name="/D3">
-      <node ref="P1" pin="14"/>
       <node ref="A1" pin="3"/>
+      <node ref="P1" pin="14"/>
     </net>
     <net code="84" name="+BATT">
       <node ref="U3" pin="3"/>
-      <node ref="U1" pin="3"/>
       <node ref="P3" pin="3"/>
+      <node ref="U1" pin="3"/>
     </net>
     <net code="85" name="GNDREF">
       <node ref="P2" pin="1"/>
@@ -2128,22 +2128,22 @@
     </net>
     <net code="86" name="/~SS_DAC">
       <node ref="P2" pin="2"/>
-      <node ref="R3" pin="2"/>
       <node ref="A1" pin="4"/>
+      <node ref="R3" pin="2"/>
     </net>
     <net code="87" name="/IOREF">
       <node ref="P2" pin="7"/>
       <node ref="A1" pin="IOR"/>
     </net>
     <net code="88" name="/~SS_NVRAM">
-      <node ref="R5" pin="2"/>
       <node ref="A1" pin="52"/>
+      <node ref="R5" pin="2"/>
       <node ref="U1" pin="1"/>
     </net>
     <net code="89" name="/LCDandRTC/~I2C_EN">
-      <node ref="R10" pin="1"/>
-      <node ref="Q3" pin="1"/>
       <node ref="A1" pin="22"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R10" pin="1"/>
     </net>
     <net code="90" name="Net-(U1-Pad7)">
       <node ref="U1" pin="7"/>
@@ -2153,44 +2153,44 @@
       <node ref="D1" pin="1"/>
     </net>
     <net code="92" name="Net-(Q1-Pad3)">
-      <node ref="R6" pin="2"/>
       <node ref="Q1" pin="3"/>
+      <node ref="R6" pin="2"/>
     </net>
     <net code="93" name="Net-(Q2-Pad3)">
-      <node ref="R7" pin="2"/>
-      <node ref="Q2" pin="3"/>
       <node ref="SP1" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R7" pin="2"/>
     </net>
-    <net code="94" name="Net-(C6-Pad1)">
-      <node ref="U2" pin="7"/>
-      <node ref="R11" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="C6" pin="1"/>
-    </net>
-    <net code="95" name="Net-(Q3-Pad3)">
-      <node ref="U2" pin="8"/>
-      <node ref="R11" pin="2"/>
-      <node ref="Q3" pin="3"/>
-    </net>
-    <net code="96" name="/LCDandRTC/X2">
+    <net code="94" name="/LCDandRTC/X2">
       <node ref="X1" pin="4"/>
       <node ref="U3" pin="2"/>
     </net>
-    <net code="97" name="/LCDandRTC/X1">
+    <net code="95" name="/LCDandRTC/X1">
       <node ref="X1" pin="1"/>
       <node ref="U3" pin="1"/>
     </net>
+    <net code="96" name="Net-(C6-Pad1)">
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="97" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
     <net code="98" name="/LCDandRTC/SCL_5V">
       <node ref="R8" pin="1"/>
-      <node ref="P6" pin="8"/>
-      <node ref="U2" pin="6"/>
       <node ref="U3" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="P6" pin="8"/>
     </net>
     <net code="99" name="/LCDandRTC/SDA_5V">
-      <node ref="U3" pin="5"/>
       <node ref="R9" pin="1"/>
-      <node ref="U2" pin="5"/>
       <node ref="P6" pin="6"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="5"/>
     </net>
     <net code="100" name="Net-(U3-Pad7)">
       <node ref="U3" pin="7"/>
