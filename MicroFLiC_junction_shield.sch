@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MicroFLiC_junction_shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MicroFLiC_junction_shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -63,9 +64,9 @@ F 11 "Dual I²C-bus voltage translator" H 4250 2200 60  0001 C CNN "Note"
 	1    4250 2200
 	1    0    0    -1  
 $EndComp
-Text Label 3200 2300 0    60   ~ 0
-SDA
 Text Label 3200 2450 0    60   ~ 0
+SDA
+Text Label 3200 2300 0    60   ~ 0
 SCL
 $Comp
 L +3V3 #PWR27
@@ -207,9 +208,9 @@ F 3 "" H 5400 1600 50  0000 C CNN
 	1    5400 1600
 	1    0    0    -1  
 $EndComp
-Text HLabel 3100 2300 0    60   BiDi ~ 0
-SDA
 Text HLabel 3100 2450 0    60   BiDi ~ 0
+SDA
+Text HLabel 3100 2300 0    60   BiDi ~ 0
 SCL
 Text HLabel 3100 3500 0    60   Input ~ 0
 ~I2C_EN
@@ -375,9 +376,9 @@ F 3 "" H 4650 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 2300 3600 2300
-Wire Wire Line
 	3100 2450 3600 2450
+Wire Wire Line
+	3100 2300 3600 2300
 Wire Wire Line
 	3600 2000 3500 2000
 Wire Wire Line
